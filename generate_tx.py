@@ -1,7 +1,7 @@
 # @Author: shubham
 # @Date:   2016-04-15 15:13:19
 # @Last Modified by:   shubham
-# @Last Modified time: 2016-04-16 01:54:54
+# @Last Modified time: 2016-04-16 07:00:25
 
 from random import randint, choice
 from optparse import OptionParser
@@ -31,5 +31,3 @@ for transaction in range(ntx):
 
 	for instruction in range(num_instructions):
 		print(choice(operations), randint(0, nvar))
-
-

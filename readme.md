@@ -45,3 +45,5 @@ python3 generate_tx.py -x 5 -i 10 -t 10 -v 5 | python3 twophase_locking_conserva
 - This will generate a system with **5 transactions**, each with maximum of **10 instructions**, with **5 variable** in total and the system's lifetime being **10 seconds**.
 
 - This random set of transactions is piped to `twophase_locking_conservative.py`, which generates the required schedule.
+
+

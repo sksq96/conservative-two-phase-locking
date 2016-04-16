@@ -7,14 +7,14 @@
 
 ## Usage
 
-- Clone the repository
+- **Clone the repository**
 
 ```
 git clone https://github.com/sksq/Conservative-Two-Phase-Locking.git
 cd cd Conservative-Two-Phase-Locking
 ```
 
-- Random input transactions generation
+- **Random input transactions generation**
 ```
 python3 generate_tx.py -x [num_transactions] -i [max_instructions] -t [max_time] -v [num_variable]
 ```
@@ -27,7 +27,7 @@ python3 generate_tx.py -x [num_transactions] -i [max_instructions] -t [max_time]
 
 `num_variable`: Total number of variable in the system.
 
-- Conservative two-phase Locking
+- **Conservative two-phase Locking**
 ```
 python3 twophase_locking_conservative.py [--verbose]
 ```

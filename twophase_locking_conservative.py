@@ -2,7 +2,7 @@
 # @Description: Conservative two phase locking
 # @Date:   2016-04-15 15:08:36
 # @Last Modified by:   shubham
-# @Last Modified time: 2016-04-16 06:44:35
+# @Last Modified time: 2016-04-16 06:49:17
 
 from pprint import pprint
 from random import randint, choice
@@ -167,4 +167,3 @@ if __name__ == '__main__':
 		system_time += 1
 
 	# pprint(locks)
-

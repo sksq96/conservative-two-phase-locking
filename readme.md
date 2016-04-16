@@ -7,6 +7,13 @@
 
 ## Usage
 
+- Clone the repository
+
+```
+git clone https://github.com/sksq/Conservative-Two-Phase-Locking.git
+cd cd Conservative-Two-Phase-Locking
+```
+
 - Random input transactions generation
 ```
 python3 generate_tx.py -x [num_transactions] -i [max_instructions] -t [max_time] -v [num_variable]

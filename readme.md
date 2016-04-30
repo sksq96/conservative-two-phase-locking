@@ -21,7 +21,7 @@
 - **Clone the repository**
 
 ```
-git clone https://github.com/sksq/Conservative-Two-Phase-Locking.git
+git clone https://github.com/Mukarr/Two-Phase-Locking.git
 cd cd Conservative-Two-Phase-Locking
 ```
 
